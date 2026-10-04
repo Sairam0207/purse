@@ -1,0 +1,16 @@
+# Minimal local config for `supabase start` / `supabase test db`.
+project_id = "purse"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+major_version = 15
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:4173", "https://Sairam0207.github.io/purse/"]
+
+[auth.email]
+enable_signup = true
